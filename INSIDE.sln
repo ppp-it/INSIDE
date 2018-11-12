@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{46E8BA32-6CE7-4363-8BE0-A1D13EABD210}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSIDE", "INSIDE\INSIDE.vcxproj", "{8380DA44-3FA7-40FA-9F78-E38B981C6F62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46E8BA32-6CE7-4363-8BE0-A1D13EABD210} = {46E8BA32-6CE7-4363-8BE0-A1D13EABD210}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCD25740-58AB-42DA-83D7-CB225C041092}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E8BA32-6CE7-4363-8BE0-A1D13EABD210}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46E8BA32-6CE7-4363-8BE0-A1D13EABD210}.Debug|Win32.Build.0 = Debug|Win32
+		{46E8BA32-6CE7-4363-8BE0-A1D13EABD210}.Release|Win32.ActiveCfg = Release|Win32
+		{46E8BA32-6CE7-4363-8BE0-A1D13EABD210}.Release|Win32.Build.0 = Release|Win32
+		{8380DA44-3FA7-40FA-9F78-E38B981C6F62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8380DA44-3FA7-40FA-9F78-E38B981C6F62}.Debug|Win32.Build.0 = Debug|Win32
+		{8380DA44-3FA7-40FA-9F78-E38B981C6F62}.Release|Win32.ActiveCfg = Release|Win32
+		{8380DA44-3FA7-40FA-9F78-E38B981C6F62}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04241EBF-5599-4850-8CFA-B098974734C3}
+	EndGlobalSection
+EndGlobal
